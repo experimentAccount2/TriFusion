@@ -31,11 +31,11 @@ install:
 
 
 script:
-    - nosetests --with-coverage --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_TriFusion_6aa95bda86_0
-    - python -m properform Push 47.88.50.110:15554 asdf_TriFusion_6aa95bda86_0 ./profile_TriFusion_6aa95bda86_0
+    - nosetests --with-coverage --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_TriFusion_6aa95bda86_1
+    - python -m properform Push 47.88.50.110:15554 asdf_TriFusion_6aa95bda86_1 ./profile_TriFusion_6aa95bda86_1
 
 
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
- #2017-08-11 20:04:13 modified at 0
+ #2017-08-11 20:04:13 modified at 0 #2017-08-11 20:04:19 modified at 1
