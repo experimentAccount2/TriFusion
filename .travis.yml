@@ -32,11 +32,11 @@ install:
     - pip install properform
 
 script:
-    - nosetests --with-coverage --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_TriFusion_9d28977d37_3
-    - python -m properform Push 47.88.50.110:15554 asdf_TriFusion_9d28977d37_3 ./profile_TriFusion_9d28977d37_3
+    - nosetests --with-coverage --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_TriFusion_9d28977d37_4
+    - python -m properform Push 47.88.50.110:15554 asdf_TriFusion_9d28977d37_4 ./profile_TriFusion_9d28977d37_4
 
 
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)  -g **/progressbar/*
- #2017-08-11 17:38:16 modified at 0 #2017-08-11 17:38:21 modified at 1 #2017-08-11 17:38:27 modified at 2 #2017-08-11 17:38:33 modified at 3
+ #2017-08-11 17:38:16 modified at 0 #2017-08-11 17:38:21 modified at 1 #2017-08-11 17:38:27 modified at 2 #2017-08-11 17:38:33 modified at 3 #2017-08-11 17:38:38 modified at 4
