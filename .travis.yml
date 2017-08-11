@@ -30,11 +30,11 @@ install:
     - pip install properform
 
 script:
-    - nosetests --with-coverage --cover-package=trifusion --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_TriFusion_ea7aa82aad_3
-    - python -m properform Push 47.88.50.110:15554 asdf_TriFusion_ea7aa82aad_3 ./profile_TriFusion_ea7aa82aad_3
+    - nosetests --with-coverage --cover-package=trifusion --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_TriFusion_ea7aa82aad_4
+    - python -m properform Push 47.88.50.110:15554 asdf_TriFusion_ea7aa82aad_4 ./profile_TriFusion_ea7aa82aad_4
 
 
 
 after_success:
     - coveralls
- #2017-08-11 20:45:42 modified at 0 #2017-08-11 20:45:49 modified at 1 #2017-08-11 20:45:55 modified at 2 #2017-08-11 20:46:02 modified at 3
+ #2017-08-11 20:45:42 modified at 0 #2017-08-11 20:45:49 modified at 1 #2017-08-11 20:45:55 modified at 2 #2017-08-11 20:46:02 modified at 3 #2017-08-11 20:46:08 modified at 4
